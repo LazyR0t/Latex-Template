@@ -1,0 +1,117 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2010.10.11)  21 OCT 2010 00:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**design.tex
+(./design.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, farsi, finnish, french,
+ galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic
+, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panja
+bi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, lao, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portu
+guese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedis
+h, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./macros.sty
+Package: macros 
+)
+No file design.aux.
+\openout1 = `design.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 6.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 11.
+ (./design.toc
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `design.toc'.
+
+ [1
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+[1
+
+]
+Chapter 2.
+[2
+
+]
+Chapter 3.
+[3
+
+]
+Chapter 4.
+[4
+
+] (./design.aux) ) 
+Here is how much of TeX's memory you used:
+ 328 strings out of 493738
+ 3685 string characters out of 98796
+ 50081 words of memory out of 3000000
+ 3681 multiletter control sequences out of 15000+200000
+ 20922 words of font info for 43 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 23i,6n,19p,180b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/shar
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb>
+Output written on design.pdf (6 pages, 18561 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
