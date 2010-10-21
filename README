@@ -1,2 +1,5 @@
+Needs:
+	Besides latex, you need the ieee style bibliography file. So download "IEEEtran.bst" from http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/bibtex/.
+	Move it to /usr/share/texmf/bibtex/bst (For arch linux users)
 Compiling:
 	./run.sh
