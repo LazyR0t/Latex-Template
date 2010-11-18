@@ -1,0 +1,14 @@
+\section{Gantt Chart}
+
+\begin{PstGanttChart}[yunit=1.5,ChartUnitIntervalName=Year,
+			ChartUnitBasicIntervalName=Month,
+			TaskUnitIntervalValue=12,
+			TaskUnitType=Year,
+			ChartShowIntervals]{10}{10}
+
+	\PstGanttTask[TaskInsideLabel={Task 1}]{0}{2}
+	\PstGanttTask[TaskInsideLabel={Task 2},TaskUnitType=Month]{6}{24}
+	\PstGanttTask[TaskInsideLabel={Task 3}]{2}{2}
+	\PstGanttTask[TaskInsideLabel={Task 4}]{3}{1}
+
+\end{PstGanttChart}

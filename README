@@ -1,5 +1,12 @@
 Needs:
-	Besides latex, you need the ieee style bibliography file. So download "IEEEtran.bst" from http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/bibtex/.
-	Move it to /usr/share/texmf/bibtex/bst (For arch linux users)
+	#Besides latex, you need the ieee style bibliography file. So download "IEEEtran.bst" from 
+		http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/bibtex/.
+	#Move it to /usr/share/texmf/bibtex/bst (For arch linux users)
+	#Also, to use the gantt chart you need to install the package pst-gantt which can be found here:
+		http://tug.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt/
+
 Compiling:
 	./run.sh
+
+By default there are no \cite commands anywhere, so bibtex will tell you that an error was found.
+	In order to get rid of that error message just add a citation command somewhere.

@@ -3,3 +3,6 @@
 *.toc
 *.pdf
 *.un~
+*.dvi
+*.ps
+*.out
