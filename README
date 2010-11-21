@@ -6,7 +6,18 @@ Needs:
 		http://tug.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt/
 
 Compiling:
-	./run.sh
+	On Linux:
+		./run.sh
+	On Windows 7:
+		Install MikTex from http://www.miktex.org/ (I did a complete installation)
+		Then open a command prompt, browse to this directory and type in:
+			# latex design.tex
+			# bibtex design.aux
+			# dvips design.dvi
+			# ps2pdf design.ps
 
 By default there are no \cite commands anywhere, so bibtex will tell you that an error was found.
 	In order to get rid of that error message just add a citation command somewhere.
+
+TODO:
+	Batch file for windows latex compilation.
