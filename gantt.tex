@@ -1,14 +1,15 @@
 \section{Gantt Chart}
 
-\begin{PstGanttChart}[yunit=1.5,ChartUnitIntervalName=Year,
-			ChartUnitBasicIntervalName=Month,
-			TaskUnitIntervalValue=12,
-			TaskUnitType=Year,
-			ChartShowIntervals]{10}{10}
+\newpsstyle{MyTaskStyleA}{fillstyle=gradient,gradmidpoint=0,gradangle=90}
+\newpsstyle{MyTaskStyleB}{fillstyle=gradient,gradmidpoint=0,gradangle=90,gradbegin=red,gradend=white}
+\begin{PstGanttChart}[yunit=1.5,ChartUnitIntervalName=Wk,
+			ChartShowIntervals=true,ChartUnitBasicIntervalName=Month,
+			TaskUnitIntervalValue=12,TaskUnitType=Wk,
+			TaskStyle=MyTaskStyleA]{4}{16}
 
-	\PstGanttTask[TaskInsideLabel={Task 1}]{0}{2}
-	\PstGanttTask[TaskInsideLabel={Task 2},TaskUnitType=Month]{6}{24}
-	\PstGanttTask[TaskInsideLabel={Task 3}]{2}{2}
-	\PstGanttTask[TaskInsideLabel={Task 4}]{3}{1}
+	\PstGanttTask[TaskInsideLabel={Specif.}]{0}{1}
+	\PstGanttTask[TaskInsideLabel={Development},TaskUnitType=Month]{6}{24} % 24 months since month 6
+	\PstGanttTask[TaskStyle=MyTaskStyleB,TaskInsideLabel={Documentation}]{2}{2}
+	\PstGanttTask[TaskInsideLabel={Check}]{3}{1}
 
 \end{PstGanttChart}
