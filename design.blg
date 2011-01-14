@@ -1,8 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2010/Arch Linux)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: design.aux
 I couldn't open style file /usr/share/texmf/bibtex/bst/IEEEtran.bst
----line 32 of file design.aux
+---line 30 of file design.aux
  : \bibstyle{/usr/share/texmf/bibtex/bst/IEEEtran
  :                                               }
 I'm skipping whatever remains of this command

@@ -5,8 +5,9 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{color}
+\usepackage{ulem}
 \usepackage{rotating}
-\usepackage[hmargin=1cm]{geometry}
+%\usepackage[hmargin=1cm]{geometry} %Used because of Gantt chart
 \hypersetup
 {
 	colorlinks,
@@ -22,9 +23,28 @@
 
 \begin{document}
 	%Table of contents and page numbering
-	\author{}
-	\title{}
-	\maketitle
+	%\author{Hason Ng \and Ruoxi Jiang \and Sagar Biddanda \and Sheng Jiang }
+	%\title{Smart Shopping Cart}
+	%\maketitle
+	\begin{titlepage}
+		\begin{center}
+			\textsc{\LARGE Georgia Institute of Technology}\\[1.5cm]
+			\hrule \hspace*{\fill} \\[0.4cm]
+			{ \huge \bfseries Smart Shopping Cart}\\[0.4cm]
+			\hrule \hspace*{\fill} \\[1.5cm]
+
+			\noindent {\it Authors:}\\
+			Sagar \textsc{Biddanda} \hspace{0.5cm} Ruoxi \textsc{Jiang} \hspace{0.5cm} Sheng 
+				\textsc{Jiang} \hspace{0.5cm} Hason \textsc{Ng} \\[1cm]
+
+			\noindent {\it Advisor:}\\
+			David \textsc{Anderson} \\[1cm]
+
+			\date{4 December, 1987}
+		\end{center}
+
+	\end{titlepage}
+
 	\pagenumbering{roman} \tableofcontents \newpage \pagenumbering{arabic}
 		\input{introduction}
 		\input{objective}
