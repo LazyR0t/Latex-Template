@@ -1,15 +1,21 @@
 \section{Gantt Chart}
 
+% Below is color for things that are completed.
 \newpsstyle{MyTaskStyleA}{fillstyle=gradient,gradmidpoint=0,gradangle=90}
+% Below is color for things that are incomplete.
 \newpsstyle{MyTaskStyleB}{fillstyle=gradient,gradmidpoint=0,gradangle=90,gradbegin=red,gradend=white}
-\begin{PstGanttChart}[yunit=1.5,ChartUnitIntervalName=Wk,
-			ChartShowIntervals=true,ChartUnitBasicIntervalName=Month,
-			TaskUnitIntervalValue=12,TaskUnitType=Wk,
-			TaskStyle=MyTaskStyleA]{4}{16}
+\begin{PstGanttChart}[   
+			 yunit=2
+			,ChartUnitIntervalName=Month
+			,ChartShowIntervals=true
+			,ChartUnitBasicIntervalName=Month
+			,TaskUnitIntervalValue=35
+			,TaskUnitType=Month
+			,TaskStyle=MyTaskStyleA
+		     ]{4}{4} % 4 rows, 4 columns
 
-	\PstGanttTask[TaskInsideLabel={Specification}]{0}{1}
-	\PstGanttTask[TaskInsideLabel={Development},TaskUnitType=Month]{6}{24} % 24 months since month 6
-	\PstGanttTask[TaskStyle=MyTaskStyleB,TaskInsideLabel={Documentation}]{2}{2}
-	\PstGanttTask[TaskInsideLabel={Check}]{3}{1}
-
+	\PstGanttTask[TaskStyle=MyTaskStyleA,TaskOutsideLabel={Specification}]{0}{1}
+	\PstGanttTask[TaskStyle=MyTaskStyleA,TaskOutsideLabel={Development},TaskUnitType=Month]{6}{24} 
+	\PstGanttTask[TaskStyle=MyTaskStyleB,TaskOutsideLabel={Documentation}]{2}{2}
+	\PstGanttTask[TaskStyle=MyTaskStyleA,TaskOutsideLabel={Check}]{3}{1}
 \end{PstGanttChart}
